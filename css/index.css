@@ -1,0 +1,368 @@
+/* 导航栏 B */
+.nav{
+    height:77px;
+    background-color: #fff;
+}
+.nav ul{
+    height:77px;
+    line-height: 77px;
+}
+.nav ul li{
+    float: left;
+    margin-right:22px;
+}
+.nav li a{
+    display:inline-block;
+    font:normal normal 18px "微软雅黑";
+    color:#666;
+}
+.nav li a:hover{
+    color:#C70202;
+}
+.nav .b_red{
+    border-bottom:2px solid #C70202;
+}
+/* 导航栏 E */
+
+/* 推荐栏 B */
+.show h3{
+    height:76px;
+    text-align: center;
+    font:normal 700 22px/76px "微软雅黑";
+}
+.show .show_pro{
+    width:1320px;
+    margin:0 auto;
+    position: relative;
+}
+.show .show_pro li{
+    width:330px;
+    height:280px;
+    float: left;
+    position: relative;
+}
+.show_pro .show_info{
+    position:absolute;
+    left:0;
+    bottom: 0;
+    display:inline-block;
+    width:100%;
+    height:63px;
+    background-color:rgba(255, 255, 255, .6);
+}
+.show_pro .show_info p{
+    margin-left: 10px;
+    margin-top:10px;
+    line-height:20px;
+}
+.show_pro span p b{
+    font:normal 700 18px "微软雅黑";
+}
+.show .show_tip{
+    position: absolute;
+    display: inline-block;
+    width:106px;
+    height:42px;
+    line-height:42px; 
+    right: 15px;
+    bottom:43px;
+    text-align: center;
+    background-color: #60A531;
+    color:#fff;
+}
+.show_pro .arrow span{
+    position:absolute;
+    display: inline-block;
+    width:146px;
+    height:77px;
+    color:#fff;
+    background:url(../images/sprite.png) no-repeat;
+}
+.show_pro .arrow .l_arrow{
+    left:92px;
+    top:70px;
+    background-position:0px -64px;
+}
+.show_pro .arrow .r_arrow{
+    right:92px;
+    top:70px;
+    background-position:0px -164px ;
+}
+.show_pro .arrow p{
+    padding-top:15px;
+    height:62px;
+    width:72px;
+    line-height:24px;
+    display:inline-block;
+}
+.show_pro .l_arrow p{
+    margin-left:25px;
+    text-align:right;
+}
+.show_pro .r_arrow p{
+    margin-left:5px;
+}
+.show_pro .arrow label{
+    display:inline-block;
+    background:url(../images/sprite.png) no-repeat;
+}
+.show_pro .l_arrow .night{
+    width:16px;
+    height:48px;
+    background-position: 0 -263px;
+    margin-left:20px;
+    
+}
+.show_pro .r_arrow .day{
+    width:41px;
+    height:41px;
+    background-position: -27px -264px;
+    
+}
+/* 推荐栏 E */
+
+/* 搜索栏 B */
+.m_search .s_center{
+    margin-top:11px;
+    margin-bottom:12px;
+}
+.m_search .s_box{
+    width:728px;
+    margin:0 auto;
+    height: 77px;
+    background-color: #fff;
+    
+}
+.m_search input{
+    font-size: 18px;
+}
+.m_search .s_txt{
+    float:left;
+    width: 513px;
+    height:77px;
+    color: #666;
+    padding-left: 42px;
+}
+.m_search .s_btn{
+    float: left;
+    width:172px;
+    height:77px;
+    color:#fff;
+    background-color: #C70202;
+}
+/* 搜索栏 E */
+
+/* 产品区域 B */
+.cp{
+    position: relative;
+}
+.m_title h3{
+    width:1000px;
+    height:73px;
+    line-height: 73px;
+    text-align: center;
+    font:normal 700 24px/73px "微软雅黑";
+}
+.m_title .more{
+    float: right;
+    color: #666;
+    font:normal 600 12px "微软雅黑";
+    margin-top:28px;
+}
+.cp .cp_one li{
+    float: left;
+    background-color: #fff;
+}
+.cp li img{
+    width: 333px;
+    height:210px;
+}
+.cp li p{
+    margin-top:10px;
+    margin-left: 15px;
+    height:47px;
+    font:normal normal 12px/22px "微软雅黑";
+}
+.cp p b{
+    font-size:14px;
+}
+.cp .change a{
+    position: absolute;
+    display:inline-block;
+    width:30px;
+    height: 100px;
+    background:url(../images/sprite.png) no-repeat;
+}
+.cp .change .pre{
+    left:180px;
+    top:138px;
+    background-position: 0 -320px;
+}
+.cp .change .next{
+    right:180px;
+    top:138px;
+    background-position: -31px -320px;
+}
+.cp .second li{
+    float:left;
+}
+.second ul p{
+    width: 999.5px;
+    height:42px;
+    background-color: #fff;
+}
+.second li a{
+    display: inline-block;
+    width:166.6px;
+    height:166px;
+}
+.second li img{
+    width:166px;
+    height:166px;
+}
+.second ul span{
+    display: inline-block;
+    width: 100px;
+    height: 42px;
+    text-align: center;
+    font:normal 700 18px/42px "微软雅黑";
+}
+.second ul .now{
+    background-color: red;
+    color: #Fff;
+}
+.second ul span:hover{
+    color: #fff;
+    background-color: red;
+}
+.third{
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.third .change .pre{
+    left:-85px;
+}
+.third .change .next{
+    right:-85px;
+}
+.third .first{
+    height:376px;
+    width:1003px;
+}
+.third .first li{
+    border-left:1px solid #fae8c8;
+}
+.third li p{
+    height:105px;
+    line-height: 50px;
+}
+.third .first li a{
+    display: inline-block;
+    width:333px;
+    height:251px;
+}
+.mb{
+    margin-bottom:0px;
+}
+.third li img{
+    width:333px;
+    height:251px;
+} 
+.third li b{
+    font:normal normal 22px "微软雅黑";
+}
+.third li span{
+    margin-right:20px;
+    font:normal normal 16px "微软雅黑";
+    color: #808080;
+}
+.third .nav_menu{
+    width:333px;
+    height:368.4px;
+}
+.third .nav_menu p{
+    margin:0;
+    padding-left:20px;
+    height:47px;
+    font:normal 600 22px/47px "微软雅黑";
+    border-bottom:2px solid #666;
+}
+.third .nav_menu ul{
+    width:333px;
+    height:264px;
+}
+.third .nav_menu li{
+    margin:20px 0px 0px 19px;
+    width:85px;
+    height:40px;
+    border: none;
+}
+.third .nav_menu ul li a{
+    display: inline-block;
+    width:85px;
+    height:40px;
+    background-color: #eee;
+    border:1px solid #B9B9B9;
+    font:normal normal 18px/40px "微软雅黑";
+    text-align: center;
+    color:black;
+}
+.third .nav_menu ul li  a:hover{
+    background-color: #C70202;
+    color: #fff;
+}
+.third .nav_menu .tm a{
+    background: transparent;
+    border:none;
+}
+.third .nav_menu .more_menu{
+    margin-left:19px;
+    width:251px;
+    display: inline-block;
+    height:50px;
+    text-align: center;
+    font:normal normal 24px/50px "微软雅黑";
+    background-color: red;
+    color:#fff;
+}
+
+.third .health{
+    width:1000px;
+    height:147px;
+}
+.third .health .h_fl{
+    position: relative;
+    width:480px;
+    height:147px;
+    background-color: #fff;
+}
+.third .health .img_box{
+    display: inline-block;
+    width:234px;
+    height:147px;
+}
+.third .health img{
+    width:234px;
+    height:147px;
+}
+.third .health .h_fr{
+    position: absolute;
+    width:239px;
+    height:147px;
+    right:0;
+    top:0;
+    margin-top:10px;
+}
+.third .health .h_fr li{
+    line-height: 45px;
+    margin-left: 10px;
+}
+.third .health .h_fr a{
+    color:#666;
+    font:normal normal 12px "微软雅黑";
+}
+.third .health .h_fr .special{
+    font:normal 600 14px "微软雅黑";
+}
+/* 产品区域 E */

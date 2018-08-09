@@ -1,0 +1,25 @@
+/* 导航栏 B */
+.nav{
+    height:77px;
+    background-color: #fff;
+}
+.nav ul{
+    height:77px;
+    line-height: 77px;
+}
+.nav ul li{
+    float: left;
+    margin-right:22px;
+}
+.nav li a{
+    display:inline-block;
+    font:normal normal 18px "微软雅黑";
+    color:#666;
+}
+.nav li a:hover{
+    color:#C70202;
+}
+.nav .b_red{
+    border-bottom:2px solid #C70202;
+}
+/* 导航栏 E */

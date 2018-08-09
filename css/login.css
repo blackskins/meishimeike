@@ -1,0 +1,107 @@
+/* 登录 B */
+.content{
+    margin:80px 0px;
+}
+.content .c_right{
+    width:482px;
+    height:600px;
+    background-color: #fff;
+}
+.content .c_right h1{
+    padding-left:44px;
+    height:100px;
+    font:normal 400 30px/100px "微软雅黑";
+}
+.content .put input{
+    width:392px;
+    height:58px;
+    font-size: 24px;
+    border:1px solid #C4C4C4;
+    margin-left:17px;
+    padding-left:54px;
+}
+.content .put{
+    position: relative;
+}
+.content .put .l_txt{
+    margin-bottom:34px;
+}
+.content .put span{
+    display:inline-block;
+    position:absolute;
+    width:42px;
+    height:42px;
+    background:url(../images/sprite.png) no-repeat;
+}
+.content .put .peo{
+    left:25px;
+    top:8px;
+    background-position: 0 -488px;
+}
+.content .put .lock{
+    left:25px;
+    top:100px;
+    background-position: 0 -546px;
+}
+.content .auto_btn{
+    height:100px;
+    font:normal normal 24px/100px "微软雅黑";
+    margin:0px 17px;
+}
+.content .auto_btn input{
+    width:24px;
+    height:24px;
+    vertical-align: middle;
+}
+.content .auto_btn .fg{
+    color:#666; 
+}
+.content .l_btn{
+    width:446px;
+    height:60px;
+    font:normal normal 24px "微软雅黑";
+    background-color: #E60012;
+    color:#fff;
+    margin-left: 17px;
+}
+.content p{
+    font:normal normal 20px "微软雅黑";
+    color:#666;
+    margin-left: 17px;
+    margin-top:50px;
+}
+.content .l_else{
+    margin-top:47px;
+    margin-left: 17px;
+}
+.content .l_else li{
+    float: left;
+    width:148px;
+    font:normal normal 16px "微软雅黑";
+}
+.content .l_else li a{
+    color:#666;
+}
+.content .l_else .l2{
+    text-align: center;
+}
+.content .l_else .l3{
+    text-align: right;
+}
+.content .l_else b{
+    display:inline-block;
+    width:24px;
+    height:20px;
+    vertical-align: middle;
+    background: url(../images/sprite.png) no-repeat;
+
+}
+.content .l_else .b1{
+    background-position: 0 0;
+}
+.content .l_else .b2{
+    background-position: 0px -27px;
+}
+.content .l_else .b3{
+    background-position: -27px 0px;
+}

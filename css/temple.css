@@ -1,0 +1,161 @@
+.center{
+    margin:0 auto;
+    width:1000px;
+}
+
+
+/* 首页头部 B */
+.header{
+    height:50px;
+    background-color: #E9E8E8;
+}
+.container{
+    height:50px;
+    line-height:50px;
+} 
+.top{
+    height:97px;
+    background-color: #C70202;
+}
+.logo h1 a{
+    display:inline-block;
+    width:221px;
+    height:97px;
+    /* background-color: #fff; */
+    text-indent: -99999em;
+    background:url(../images/logo.png);
+}
+.top .search{
+    width:296px;
+    height:28px;
+    background-color: #fff;
+    margin-top:34px;
+    margin-left:70px;
+    border-radius: 5px;
+}
+.search .txt{
+    display: inline-block;
+    width:231px;
+    height:28px;
+    outline:none;
+    margin-left: 5px;
+}
+.search .search_btn{
+    display: inline-block;
+    width:56px;
+    height: 26px;
+    background-color: #C70202;
+    border-radius:0px 5px 5px 0px;
+    margin:1px;
+    color:#fff;
+}
+.login{
+    margin-top:36px;
+}
+.login span{
+    margin-left:25px;
+    color:#fff;
+}
+.login input{
+    display:inline-block;
+    width:56px;
+    height:30px;
+    margin-left:10px;
+}
+.login span b{
+    display: inline-block;
+    width:25px;
+    height:25px;
+    background:url(../images/sprite.png);
+    vertical-align: middle;
+
+}
+.login span .b2{
+    background-position:0px -27px;
+}
+/* 首页头部 E */
+
+/* 底部 B */
+.foot{
+    background-color: #2f2f2f;
+    height:293px;
+    padding:10px;
+}
+.bg{
+    height:291px;
+    border:1px solid #FFD283;
+    position: relative;
+}
+.foot .bg b{
+    display:inline-block;
+    width:17px;
+    height:17px;
+    border:1px solid #2f2f2f;
+    position: absolute;
+    background:url(../images/circle.png) no-repeat;
+}
+.foot .bg .b1{
+    left:-1px;
+    top:-1px;
+    background-position:right bottom; 
+}
+.foot .bg .b2{
+    right:-1px;
+    top:-1px;
+    background-position:left bottom; 
+}
+.foot .bg .b3{
+    right:-1px;
+    bottom:-1px;
+    background-position:left top; 
+}
+.foot .bg .b4{
+    left:-1px;
+    bottom:-1px;
+    background-position:right top; 
+}
+.foot .f_l{
+    margin-top:53px;
+}
+.f_l li{
+    line-height:33px;
+    color:#ccc;
+}
+.f_l li .cRed{
+    color:red;
+}
+.f_l li .fz14{
+    font-size:14px;
+}
+
+.f_r{
+    margin-top:34px;
+}
+.f_r ul li{
+    float:left;
+    margin-left: 20px;
+}
+.f_r ul li a{
+    display:inline-block;
+    width:105px;
+    height:105px;
+    margin-bottom: 10px;
+    background:url(../images/sprite.png) no-repeat;
+}
+.f_r .l1{
+    background-position:-327px 0px;
+}
+.f_r .l2{
+    background-position:-327px -119px;
+}
+.f_r .l3{
+    background-position:-327px -241px;
+}
+.f_r .l4{
+    background-position:-327px -362px;
+}
+.f_r  li p{
+    text-align:center;
+    color:#666;
+}
+/* 底部 E */

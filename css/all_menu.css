@@ -1,0 +1,205 @@
+/* 导航栏 B */
+.nav{
+    height:77px;
+    background-color: #fff;
+}
+.nav ul{
+    height:77px;
+    line-height: 77px;
+}
+.nav ul li{
+    float: left;
+    margin-right:22px;
+}
+.nav li a{
+    display:inline-block;
+    font:normal normal 18px "微软雅黑";
+    color:#666;
+}
+.nav li a:hover{
+    color:#C70202;
+}
+.nav .b_red{
+    border-bottom:2px solid #C70202;
+}
+/* 导航栏 E */
+
+/* 产品区域 B */
+.m_title h3{
+    width:1000px;
+    height:73px;
+    line-height: 73px;
+    text-align: center;
+    font:normal 700 24px/73px "微软雅黑";
+}
+.cp .cp_one li{
+    float: left;
+}
+.cp .scroll{
+    position: relative;
+}
+.cp .scroll li{
+    background-color: #fff;
+}
+.cp .scroll img{
+    width: 333px;
+    height:210px;
+}
+.cp .scroll li p{
+    margin-top:10px;
+    margin-left: 15px;
+    height:47px;
+    font:normal normal 12px/22px "微软雅黑";
+}
+.cp p b{
+    font-size:14px;
+}
+.scroll .sticks{
+    width:100%;
+    height:20px;
+    text-align: center;
+    margin-top:20px;
+}
+.scroll .sticks .now{
+    background-color: #C70202;
+}
+.scroll .sticks label{
+    display:inline-block;
+    margin-right:30px;
+    width:73px;
+    height:3px;
+    background-color: #C9C9C9;
+}
+.scroll .sticks label:last-child{
+    margin-right: 0;
+}
+.change a{
+    position: absolute;
+    display:inline-block;
+    width:30px;
+    height: 100px;
+    background:url(../images/sprite.png) no-repeat;
+}
+.change .pre{
+    left:-80px;
+    top:138px;
+    background-position: 0 -320px;
+}
+.change .next{
+    right:-80px;
+    top:138px;
+    background-position: -31px -320px;
+}
+.menu_list{
+    margin-bottom: 33px;
+    position: relative;
+}
+.menu_list .change .next{
+    right: -80px;
+}
+.menu_list ul{
+    position: relative;
+    width:899px;
+    height:203px;
+    padding-top:56px;
+    padding-left:101px;
+    background-color: #fff;
+}
+.menu_list ul li{
+    widows: 218px;
+    height:149px;
+}
+.menu_list ul .t_info{
+    position: absolute;
+    width:950px;
+    height:50px;
+    left:23px;
+    top:8px;
+}
+.menu_list .t_info span{
+    display:inline-block;
+    height: 50px;
+    font-family: "微软雅黑";
+}
+.menu_list .t_info .l_info{
+    line-height: 35px;
+}
+.menu_list  .l_info label{
+    font:normal 600 20px "微软雅黑";
+}
+.menu_list .t_info .r_info{
+    line-height: 50px;
+}
+.menu_list .r_info b{
+    color: red;
+}
+
+.jump_list{
+    margin:0 auto;
+    width:1000px;
+    height:58px;
+    margin-bottom:50px;
+}
+.jump_list ul{
+    width:765px;
+    margin:0 auto;
+}
+.jump_list ul li{
+    width:58px;
+    height:58px;
+    float: left;
+    background-color: #F5F5F5;
+    margin-right:2px;
+}
+.jump_list li a{
+    display: inline-block;
+    width: 58px;
+    height:58px;
+    text-align:center;
+    color:#796279;
+    font:normal normal 18px/58px "微软雅黑";
+}
+.jump_list .now a{
+    background-color: red;
+    color:#fff;
+}
+.jump_list .anymore{
+    background:transparent;
+}
+.jump_list .nextpage{
+    width:99px;
+    text-align: center;
+}
+.jump_list .allpage{
+    margin-left:10px;
+    width:150px;
+    line-height: 58px;
+    text-align: center;
+    font:normal normal 18px "微软雅黑";
+    background:transparent;
+}
+.jump_list .allpage span{
+    display: inline-block;
+    width:58px;
+    height:58px;
+    line-height: 58px;
+}
+.jump_list .jump_page{
+    width:80px;
+    font:normal normal 18px "微软雅黑";
+    background:transparent;
+}
+.jump_list .jump_page input{
+    width:58px;
+    height:58px;
+    text-align: center;
+}
+.jump_list .jump_btn input{
+    width:58px;
+    height:58px;
+    background-color: #F5F5F5;
+}
+.jump_list li input{
+    font:normal normal 18px "微软雅黑";
+}
+/* 产品区域 B */
